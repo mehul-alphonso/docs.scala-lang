@@ -56,7 +56,7 @@ This assumes you know [how to build a project in IntelliJ](building-a-scala-proj
 Let's go over this line by line:
 
 * `class CubeCalculatorTest` means we are testing the object `CubeCalculator`
-* `extends FunSuite` lets us use functionality of ScalaTest's FunSuite class
+* `extends FunSuite` let us use functionality of ScalaTest's FunSuite class
 such as the `test` function
 * `test` is function that comes from the FunSuite library that collects
 results from assertions within the function body.
